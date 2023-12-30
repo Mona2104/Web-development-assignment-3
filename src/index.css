@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0px;
+  font-family: "Quicksand";
+  color: #333;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h2 {
+  background-color: #f1356d;
+  float:centre;
+  box-sizing: border-box;
+  border-radius: 40px;
+  text-align: centre;
+  box-shadow: #333;
+  padding: 3px;
+}
+
+.navbar {
+  margin-top: 5px;
+  background-color: bisque;
+  overflow: hidden;
+  border-radius: 50px;
+}
+ #home{
+  display: flex;
+  float:right;
+  border:2px solid #f1356d;
+  border-radius:50px;
+  padding:5px;
+  margin-right: 5px;
+}
+#abt{
+  display: flex;
+  float:right;
+  border:2px solid #f1356d;
+  border-radius:50px;
+  padding:5px;
+  margin-right: 5px;
+}
+#menu{
+  display: flex;
+  float:right;
+  border:2px solid #f1356d;
+  border-radius:50px;
+  padding:5px;
+  margin-right: 5px;
+}
+#review{
+  display: flex;
+  float:right;
+  border:2px solid #f1356d;
+  border-radius:50px;
+  padding:5px;
+  margin-right: 5px;
+}
+
+
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  border:black;
+
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
